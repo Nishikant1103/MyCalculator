@@ -23,7 +23,6 @@ class MainActivity : AppCompatActivity() {
     fun onDigit(view: View) {
         text_display.append((view as Button).text)
         lastDigit = true
-        //Toast.makeText(this, "Button $inputText was clicked", Toast.LENGTH_SHORT).show()
     }
 
     fun onClear(view: View) {
